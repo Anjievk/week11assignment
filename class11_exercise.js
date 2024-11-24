@@ -114,3 +114,6 @@ function StartApp() {
 }
 
 StartApp();
+
+
+// The code is functional and well-structured - Sandy
