@@ -82,8 +82,7 @@ function assignRole() {
       return StartApp();
     }
 
-    readline.question(
-      "Enter the role to assign (moderator, simple, coAdmin, or type 'add' to create a new role): ",
+    readline.question("Enter the role to assign (moderator, simple, coAdmin, or type 'add' to create a new role): ",
       (roleName) => {
         if (role[roleName]) {
           user.role = roleName;
@@ -222,3 +221,5 @@ function StartApp() {
 }
 
 StartApp();
+
+// Reviewed by Sandy: Clear code and easy to understand. Included condition such as user not in list and role does not exist. Show empathy to host so  that the host knows what is failing. Good job!
